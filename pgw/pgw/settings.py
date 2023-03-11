@@ -42,8 +42,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "checkoutUrl",
-    "baseToken"
+    "checkoutURL",
+    "baseToken",
 ]
 
 MIDDLEWARE = [
