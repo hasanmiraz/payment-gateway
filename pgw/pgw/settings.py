@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "checkoutURL",
     "baseToken",
+    "merchant",
 ]
 
 MIDDLEWARE = [
@@ -94,6 +95,7 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
+AUTH_USER_MODEL = "merchant.Merchant"
 
 AUTH_PASSWORD_VALIDATORS = [
     {

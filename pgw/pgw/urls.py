@@ -18,6 +18,7 @@ from django.urls import path, include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("merchant/", include("merchant.urls")),
     path("token/", include("baseToken.urls")),
     path("checkouturl/", include("checkoutURL.urls"))
 ]
